@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sorteador Kyraly</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <img src="logokyraly.png" alt="Logo">
+    
+    </div>
+    
+    <div class="container">
+      <h1>Sorteador Kyraly</h1>
+      <h2>Preencha os nomes, emails, numeros etc, que deseja sortear:</h2>
+      <div class="form">
+        <textarea id="nomes" placeholder="Digite os nomes separados por vírgula ou por quebra de linha"></textarea>
+        <button onclick="adicionarNomes()">Adicionar</button>
+      </div>
+      
+      <div class="nomes">
+        <ul id="lista-nomes">
+        </ul>
+      </div>
+      <button onclick="sortear()">Sortear nome Vencedor</button>
+      <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+    <footer>
+      <p>Desenvolvido por <a >Alexandre Junior</a></p>
+    </footer>
+  </body>
+  </body>
+</html>
